@@ -1,9 +1,10 @@
 import React from 'react';
+import StyledHeader from './styledComponents/Header'
 
 const Header = () => {
   return (
     <div>
-      <h1>Welcome to TicTacToe !</h1>
+      <StyledHeader>Welcome to TicTacToe !</StyledHeader>
     </div>
   )
 };
