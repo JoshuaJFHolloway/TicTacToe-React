@@ -9,7 +9,7 @@ describe('App', () => {
     expect(app).toMatchSnapshot();
   });
 
-  // it('renders a Form component', () => {
-  //   expect(app.find('Form').exists()).toBe(true);
-  // });
+  it('renders a Game component', () => {
+    expect(app.find('Game').exists()).toBe(true);
+  });
 });
