@@ -48,16 +48,15 @@ and change it to a X if its a O.
 
 As always I will endeavour to keep components strictly adhering to the SRP and extract logic wherever
 possible. This is always easier with ReactJs's component structured nature, and a big reason why I like
-it so much. Anyway, after drawing out the page I decided on a provisional 12 components. I am sure that
+it so much. Anyway, after drawing out the page I decided on a provisional 13 components. I am sure that
 I'll need more when extracting logic for the winning conditions etc. But for the time this is what I will
 be doing.
 
-Wrapper
-Header 
-Grid container
+App
+Wrapper (child of app)
+Header (child of wrapper)
+Grid container (child of wrapper)
 x 9 button components (child of grid container)
-
-The 
 
 
 ## Authors
