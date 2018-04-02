@@ -53,7 +53,7 @@ I'll need more when extracting logic for the winning conditions etc. But for the
 be doing.
 
 App
-Wrapper (child of app)
+Game (wrapper and child of app)
 Header (child of wrapper)
 Grid container (child of wrapper)
 x 9 button components (child of grid container)

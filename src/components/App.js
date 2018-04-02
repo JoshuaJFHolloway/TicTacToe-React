@@ -1,10 +1,10 @@
 import React from 'react';
-// import Form from './Form';
+import Game from './Game';
 
 const App = () => {
   return (
     <div>
-      < />
+      <Game/>
     </div>
   );
 };
