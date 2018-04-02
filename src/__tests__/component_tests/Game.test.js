@@ -3,9 +3,20 @@ import { shallow } from 'enzyme';
 import Game from '../../components/Game';
 
 describe('Game', () => {
-  const app = shallow(<Game />);
+  let game = shallow(<Game />);
 
-  it('renders correctly', () => {
-    expect(app).toMatchSnapshot();
+  describe('Rendering components', () => {
+    it('renders correctly', () => {
+      expect(game).toMatchSnapshot();
+    });
+
+    it('initializes turn state as X', () => {
+      expect(game.state('turn')).toEqual('X')
+    });
+
+    it('initializes button clicked state as false', () => {
+      expect(game.state('buttonClicked')).toEqual(false)
+    });
+
   });
 });
